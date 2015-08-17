@@ -1,0 +1,30 @@
+brical package
+==============
+
+Submodules
+----------
+
+brical.brical module
+--------------------
+
+.. automodule:: brical.brical
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+brical.conf module
+------------------
+
+.. automodule:: brical.conf
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: brical
+    :members:
+    :undoc-members:
+    :show-inheritance:
