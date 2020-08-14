@@ -1,0 +1,16 @@
+for i in range(53):
+    with open('pagina' + str(i+1) + '.html', mode='w') as f:
+         f.write('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n')
+         f.write('<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">\n')
+         f.write('<head>\n')
+         f.write('<title>Le Radicante p.' + str(i+1) + '</title>\n')
+         f.write('<meta http-equiv="content-type" content="text/html; charset=UTF-8" />\n')
+         f.write('</head>\n')
+         f.write('<body>\n')
+         f.write('<center><a href="pagina' + str(i) + '.html">◀PREVIE</a> [<a href="lista.html">LISTA</a>] <a href="pagina' + str(i+2) + '.html">SEQUENTE▶</a><br/>\n')
+         f.write('<img border="0" src="png/Pagina' + str(i+1).zfill(2) + '.png">\n')
+         f.write('<br/>\n')
+         f.write('<center><a href="pagina' + str(i) + '.html">◀PREVIE</a> [<a href="lista.html">LISTA</a>] <a href="pagina' + str(i+2) + '.html">SEQUENTE▶</a><br/>\n')
+         f.write('<br/><br/>P.' + str(i+1))
+         f.write('</center>\n')
+         f.write('</body>\n')
